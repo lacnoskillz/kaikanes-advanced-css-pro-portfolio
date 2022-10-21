@@ -12,7 +12,7 @@ For potential employers to look at my work
 * Zoom
 #### Screen shot
 ***
-![](assets/images/)
+![](assets/images/Screenshotofsite.png)
 ##### Link
 ***
 click for deployed app
