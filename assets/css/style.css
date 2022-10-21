@@ -20,6 +20,9 @@ body {
 h1{
     font-size: 80px;
      }
+h2{
+    background-color: beige;
+}
 /*image of me*/
 .image1 {
     width: 200px;
@@ -79,11 +82,12 @@ li a:hover {
 .comtainer {
     display: flex;
     flex-direction: row;
+    
 }
-.container2{
+.containerwork{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items:center;
 }
 .workheader{
     font-size: 70px;
@@ -100,5 +104,13 @@ p{
     font: 25px;
     color: aliceblue;
     background-color: black;
+    margin: 10px;
+    display: inline;
     
+}
+header {
+    font-size: 80px;
+    display: block; 
+    position: relative;
+    margin: auto;
 }
