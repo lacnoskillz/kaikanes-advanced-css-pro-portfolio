@@ -1,20 +1,26 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/*background image of dock*/
+body {
+  background-image: url("https://wallup.net/wp-content/uploads/2016/02/195243-mountain-lake.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
 .topheader {
-    background-color: rgb(90, 88, 88);
+    background: linear-gradient(to bottom right, rgb(167, 164, 164), rgb(19, 18, 18));
     color: azure;
     display: block;
     
     padding: 20px;
     
 }
+/*size of my name at top of page*/
 h1{
     font-size: 80px;
-    
-    
-}
+     }
+/*image of me*/
 .image1 {
     width: 200px;
     border-radius: 100px;
@@ -22,11 +28,31 @@ h1{
     margin: 5px;
     
 }
+/*random code beneath header*/
 .image2 {
     width: 100%;
     height: 220px;
 
 }
+/*image of horiseon project*/
+.image3 {
+    width: 400px;
+    height: 400px;
+    transition: all .3s ease-in-out;
+}
+.image3:hover {
+    transform: scale(1.1);
+}
+/*image of cheat sheet*/
+.image4 {
+    width: 400px;
+    height: 400px;
+    transition: all .3s ease-in-out;
+}
+.image4:hover {
+    transform: scale(1.1);
+}
+
 ul {
     margin:0;
     padding: 0;
@@ -57,11 +83,22 @@ li a:hover {
 .container2{
     display: flex;
     flex-direction: column;
-    align-items: flex-start
+    align-items: flex-end;
 }
-h2 {
-    
+.workheader{
+    font-size: 70px;
+    display: block;
 }
-h3{
+.subheaders{
+    font-size: 50px;
+    color:aliceblue;
+    background-color: black;
+    display: inline;
+
+}
+p{
+    font: 25px;
+    color: aliceblue;
+    background-color: black;
     
 }
