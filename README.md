@@ -16,4 +16,4 @@ For potential employers to look at my work
 ##### Link
 ***
 click for deployed app
-[click me](enter link here)
+[click me](https://lacnoskillz.github.io/advanced-css-pro-portfolio/)
