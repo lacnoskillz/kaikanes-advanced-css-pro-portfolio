@@ -7,12 +7,12 @@ For potential employers to look at my work
 ### Technologys
 ***
 * www.w3schools.com
-* Github
+* Github.com
 * Slack
 * Zoom
 #### Screen shot
 ***
-![](assets/images/Screenshotofsite.png)
+![](/advanced-css-pro-portfolio/assets/images/Screenshotofsite.png)
 ##### Link
 ***
 click for deployed app

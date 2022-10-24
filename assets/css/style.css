@@ -1,18 +1,18 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/*background image of dock*/
 body {
-  background-image: url("https://wallup.net/wp-content/uploads/2016/02/195243-mountain-lake.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+ 
   
 }
+/*background color*/
+main{
+    background-color: bisque;
+}
+/*top of page image and color of my name at top */
 .topheader {
-    background: linear-gradient(to bottom right, rgb(167, 164, 164), rgb(19, 18, 18));
-    color: azure;
-    display: block;
-    
+    background-image: url("https://wallup.net/wp-content/uploads/2016/02/195243-mountain-lake.jpg");
+    color: rgb(2, 2, 2);
     padding: 20px;
     
 }
@@ -20,51 +20,17 @@ body {
 h1{
     font-size: 80px;
      }
-h2{
-    background-color: beige;
-}
-/*image of me*/
-.image1 {
-    width: 200px;
-    border-radius: 100px;
-    padding: 5px;
-    margin: 5px;
-    
-}
-/*random code beneath header*/
-.image2 {
-    width: 100%;
-    height: 220px;
 
-}
-/*image of horiseon project*/
-.image3 {
-    width: 400px;
-    height: 400px;
-    transition: all .3s ease-in-out;
-}
-.image3:hover {
-    transform: scale(1.1);
-}
-/*image of cheat sheet*/
-.image4 {
-    width: 400px;
-    height: 400px;
-    transition: all .3s ease-in-out;
-}
-.image4:hover {
-    transform: scale(1.1);
-}
 
+/* styleling of links on top under profile pic. "aboutme""work""contact"*/
 ul {
     margin:0;
     padding: 0;
     font-size: 25px;
     list-style: none;
     background-color: aliceblue;
-    color: rgb(18, 156, 87);
     text-align: start;
-    
+    display: inline-block;
 }
 li {
     display: inline-block;
@@ -75,42 +41,162 @@ a{
     color: black;
     padding: 10px;
     text-decoration: none;
+    
 }
 li a:hover {
     background-color: rgb(195, 195, 207);
 }
-.comtainer {
+
+/*image of me*/
+.image1 {
+    width: 200px;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+/*background color of header "work"*/
+h2{
+    padding: 20px;
+    background-color: lightblue;
+    height: 100%;
+    
+    
+    
+}
+
+/*size and settings for headers "css cheat sheet and refracter site*/
+h3 {
+    font-size: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    
+   border: 1px black solid;
+}
+
+
+/*image of horiseon project*/
+.image2 {
+    
+    width: 600px;
+    height: 400px;
+    transition: all .3s ease-in-out;
+    border: 4px solid lightblue;
+    border-radius: 20px;
+    margin: 40px;
+}
+.image2:hover {
+    transform: scale(1.1);
+}
+/*image of cheat sheet*/
+.image3 {
+    width: 300px;
+    height: 200px;
+    transition: all .3s ease-in-out;
+    border: 4px solid lightblue;
+    border-radius: 20px;
+}
+.image3:hover {
+    transform: scale(1.1);
+}
+/*place holder image propertys*/
+.image4 {
+    width: 300px;
+    height: 200px;
+    transition: all .3s ease-in-out;
+    border: 4px solid lightblue;
+    border-radius: 20px;
+}
+.image4:hover {
+    transform: scale(1.1);
+}
+/*flex container for first element "refractersite" */
+.containerwork1 {
+    display: flex;
+    justify-content: center;
+    border: 1px black solid;
+    flex-direction: row;
+    
+    
+
+}
+
+/*makes container with "css cheat sheet and project 1/2 to flex*/
+.containerwork{
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+     justify-content: center;
+}
+/*puts box around flex elements to better see position*/
+.containerwork div, .containerwork1 div{
+    border: 1px black solid;
+    padding: 10px;
+}
+/*puts border around "card" flex box elements*/
+.card1{
+    border-radius: 1px black solid;
+    justify-content: space-around;
+    height: 400px;
+    width: 400px;
+    background-image: url("/advanced-css-pro-portfolio/assets/images/Screenshot6.png");
+}
+
+/*style for "work" header.*/
+.workheader{
+    font-size: 70px;
+    display: inline-block;
+    /*trouble floting it to the left*/
+}
+/*makes container with "aboutme' and "contact" flex*/
+.container {
+    border: 1px black solid;
     display: flex;
     flex-direction: row;
     
-}
-.containerwork{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-}
-.workheader{
-    font-size: 70px;
-    display: block;
-}
-.subheaders{
-    font-size: 50px;
-    color:aliceblue;
-    background-color: black;
-    display: inline;
-
-}
-p{
-    font: 25px;
-    color: aliceblue;
-    background-color: black;
-    margin: 10px;
-    display: inline;
     
 }
-header {
-    font-size: 80px;
-    display: block; 
-    position: relative;
+
+/*size and style of headers "aboutme" and "contact"*/
+.subheaders{
+    font-size: 30px;
+    color:black;
+    background-color: lightblue;
+    display: inline;
     margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*font settings for paragraphs in "container" aboutme and contact*/
+p{
+    font-size: 25px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    
+    
+    
+}
+/*at 900px or less changes nav bar at top to be vertical*/
+@media screen and (max-width: 900px) {
+    li{
+        display: block;
+    }
+    }
+@media screen and (max-width: 1000px) {
+.containerwork{
+    flex-direction: column;
+    align-items: center;
+}
+    
+.container{
+    flex-direction: column;
+}
 }
