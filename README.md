@@ -12,7 +12,7 @@ For potential employers to look at my work
 * Zoom
 #### Screen shot
 ***
-![](/advanced-css-pro-portfolio/assets/images/Screenshotofsite.png)
+![](/advanced-css-pro-portfolio/assets/images/sitescreenshot.png)
 ##### Link
 ***
 click for deployed app
